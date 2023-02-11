@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: RootNode
   m_EditorClassIdentifier: 
   mute: 0
-  nodePosition: {x: 2018, y: 0}
+  nodePosition: {x: 2018.4, y: 0}
   nodeDescription: 
   child: {fileID: -579034601476848370}
 --- !u!114 &-7016314054655226247
