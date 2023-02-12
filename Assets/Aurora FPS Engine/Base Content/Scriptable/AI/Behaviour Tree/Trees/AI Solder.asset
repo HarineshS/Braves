@@ -565,7 +565,7 @@ MonoBehaviour:
   m_Name: WaitNode
   m_EditorClassIdentifier: 
   mute: 0
-  nodePosition: {x: 2788, y: 1330}
+  nodePosition: {x: 2788, y: 1330.3999}
   nodeDescription: 
   singleCall: 0
   durationVariable: 
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_Name: RotateTowardsNode
   m_EditorClassIdentifier: 
   mute: 0
-  nodePosition: {x: 3228, y: 1140}
+  nodePosition: {x: 3231.498, y: 1140}
   nodeDescription: 
   singleCall: 0
   rotationSpeedVariable: 
@@ -738,12 +738,12 @@ MonoBehaviour:
   m_Name: SeeObjectNode
   m_EditorClassIdentifier: 
   mute: 0
-  nodePosition: {x: 1028, y: 1140}
+  nodePosition: {x: 1026.251, y: 1140}
   nodeDescription: 
   singleCall: 0
   objectTag: Player
   fovVariable: 
-  fov: 90
+  fov: 120
   heightOffsetVariable: 
   heightOffset: 1.635
   maxDistanceVariable: 
@@ -805,12 +805,12 @@ MonoBehaviour:
   m_Name: SeeObjectNode
   m_EditorClassIdentifier: 
   mute: 0
-  nodePosition: {x: 148, y: 950}
+  nodePosition: {x: 147.99998, y: 950.4001}
   nodeDescription: 
   singleCall: 0
   objectTag: Player
   fovVariable: 
-  fov: 90
+  fov: 120
   heightOffsetVariable: 
   heightOffset: 1.635
   maxDistanceVariable: 
