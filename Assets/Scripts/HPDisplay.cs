@@ -13,12 +13,14 @@ public class HPDisplay : MonoBehaviour
     public CharacterHealth fPHealth;
 
     public Text hptext;
+    public GameObject DeathtText;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
+        DeathtText.SetActive(false);
 
 
     }
@@ -29,6 +31,11 @@ public class HPDisplay : MonoBehaviour
 
 
         hptext.text = playerobject.GetComponent<CharacterHealth>().GetHealth().ToString();
+
+        if (playerobject.GetComponent<CharacterHealth>().GetHealth() <= 0)
+        {
+            DeathtText.SetActive(true);
+        }
 
     }
 
