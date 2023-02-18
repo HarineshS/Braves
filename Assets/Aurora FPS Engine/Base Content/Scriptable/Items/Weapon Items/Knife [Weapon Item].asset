@@ -20,7 +20,7 @@ MonoBehaviour:
   dropForce: 2
   dropTorque: 2.5
   reusable: 1
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300038, guid: 6674e8c43c63e4f4184cbd009379498d, type: 3}
   customDatas:
     keys: []
     values: []

@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: AI Bullet
   damage: 25
+  rangeModifier: 0.01
   impactImpulse: 10
   decalMapping: {fileID: 11400000, guid: a8b0c81d03f15d943b14a2fa95d435d5, type: 2}
