@@ -64,10 +64,10 @@ public class Computer : MonoBehaviour
                 }
 
             }
-            // else
-            // {
-            //     ASource.Stop();
-            // }
+            else
+            {
+                ASource.Stop();
+            }
 
 
 

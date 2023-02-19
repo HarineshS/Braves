@@ -14,6 +14,11 @@ public class HPDisplay : MonoBehaviour
 
     public Text hptext;
     public GameObject DeathtText;
+    public Image healthBarImage;
+    public Color halfHpColor;
+    public Color criticalColor;
+
+    public Color fullHpColor;
 
 
 
@@ -38,6 +43,30 @@ public class HPDisplay : MonoBehaviour
             Time.timeScale = 0.45f;
         }
 
+
+        float healthFraction = (float)playerobject.GetComponent<CharacterHealth>().GetHealth() / (float)playerobject.GetComponent<CharacterHealth>().GetMaxHealth();
+        healthBarImage.fillAmount = healthFraction;
+
+        if (playerobject.GetComponent<CharacterHealth>().GetHealth() > 70)
+        {
+            healthBarImage.color = fullHpColor;
+
+
+        }
+
+        if (playerobject.GetComponent<CharacterHealth>().GetHealth() <= 70 && playerobject.GetComponent<CharacterHealth>().GetHealth() >= 35)
+        {
+            healthBarImage.color = halfHpColor;
+
+
+        }
+
+        if (playerobject.GetComponent<CharacterHealth>().GetHealth() <= 35)
+        {
+            healthBarImage.color = criticalColor;
+
+
+        }
     }
 
 
