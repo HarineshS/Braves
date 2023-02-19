@@ -35,6 +35,7 @@ public class HPDisplay : MonoBehaviour
         if (playerobject.GetComponent<CharacterHealth>().GetHealth() <= 0)
         {
             DeathtText.SetActive(true);
+            Time.timeScale = 0.45f;
         }
 
     }
