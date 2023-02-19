@@ -36,15 +36,15 @@ public class gameplaymanager : MonoBehaviour
             Obj1.SetActive(false);
         }
 
-        //     if (PlayerPrefs.GetInt("Obj2Status") == 1)
-        //     {
-        //         Obj2.SetActive(false);
+        if (PlayerPrefs.GetInt("Obj2Status") == 1)
+        {
+            Obj2.SetActive(true);
 
-        //     }
-        //     else
-        //     {
-        //         Obj2.SetActive(true);
-        //     }
+        }
+        else
+        {
+            Obj2.SetActive(false);
+        }
 
         //     if (PlayerPrefs.GetInt("Obj3Status") == 1)
         //     {
