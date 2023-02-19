@@ -139,7 +139,7 @@ public class Papers : MonoBehaviour
         fillImage.fillAmount = 0;
         isHoldingKey = false;
         yield return new WaitForSeconds(showComputerUIfor);
-        PlayerPrefs.SetInt("Obj2Status", 0);
+        //PlayerPrefs.SetInt("Obj2Status", 0);
         obj2.SetActive(false);
 
         Destroy(this.gameObject);

@@ -15,6 +15,8 @@ public class Computer : MonoBehaviour
     public GameObject Player;
     public GameObject ComputerUI;
 
+    public GameObject obj1;
+
     public int showComputerUIfor = 5;
 
 
@@ -134,12 +136,14 @@ public class Computer : MonoBehaviour
     public IEnumerator ShowComputerUI()
     {
         PlayerPrefs.SetInt("Obj1Status", 1);
+        obj1.SetActive(true);
         ComputerUI.SetActive(true);
         fillImage.fillAmount = 0;
         isHoldingKey = false;
         yield return new WaitForSeconds(showComputerUIfor);
         ComputerUI.SetActive(false);
-        PlayerPrefs.SetInt("Obj1Status", 0);
+        obj1.SetActive(false);
+        //PlayerPrefs.SetInt("Obj1Status", 0);
 
 
     }
