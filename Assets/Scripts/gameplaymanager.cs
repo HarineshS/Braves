@@ -16,58 +16,34 @@ public class gameplaymanager : MonoBehaviour
 
     private void Awake()
     {
-        //Obj1.SetActive(true);
-        // Obj2.SetActive(true);
-        // Obj3.SetActive(true);
-        // Obj4.SetActive(true);
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (PlayerPrefs.GetInt("Obj1Status") == 1)
-        {
-            Obj1.SetActive(true);
-
-        }
-        else
-        {
-            Obj1.SetActive(false);
-        }
-
-        if (PlayerPrefs.GetInt("Obj2Status") == 1)
-        {
-            Obj2.SetActive(true);
-
-        }
-        else
-        {
-            Obj2.SetActive(false);
-        }
-
-        //     if (PlayerPrefs.GetInt("Obj3Status") == 1)
-        //     {
-        //         Obj3.SetActive(false);
-
-        //     }
-        //     else
-        //     {
-        //         Obj3.SetActive(true);
-        //     }
-
-
-        //     if (PlayerPrefs.GetInt("Obj4Status") == 1)
-        //     {
-        //         Obj4.SetActive(false);
-
-        //     }
-        //     else
-        //     {
-        //         Obj4.SetActive(true);
-        //     }
 
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Triggered by player");
+            StartCoroutine(DestinationReached());
+        }
+    }
+
+    public IEnumerator DestinationReached()
+    {
+        GameObject objectiveText = GameObject.Find("sniperobjtext"); // Replace "ObjectiveText" with the name of your objective text GameObject
+        objectiveText.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        objectiveText.SetActive(false);
+    }
+
+
 
 
 }

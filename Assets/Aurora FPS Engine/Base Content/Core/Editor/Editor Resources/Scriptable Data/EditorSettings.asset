@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 587faf0758276184fb7e0d5838b06d51, type: 3}
   m_Name: EditorSettings
   m_EditorClassIdentifier: 
+  rootPath: Assets/Aurora FPS Engine
   apexEnabled: 1
   exceptScripts: []
   defaultTypes:
   - InputAction
   debugMode: 0
-  readmeAtStartup: 1
