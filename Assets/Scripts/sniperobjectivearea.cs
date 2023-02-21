@@ -16,6 +16,7 @@ public class sniperobjectivearea : MonoBehaviour
     {
         //OBJ4LocationTrigger = GameObject.Find("Obj4Trigger");
         //OBJ4Position = GameObject.Find("OBJ4Location");
+        PlayerPrefs.SetInt("Obj5Status", 0);
 
 
     }
@@ -45,6 +46,7 @@ public class sniperobjectivearea : MonoBehaviour
         if (!reached)
         {
             OBJ4LocationTrigger.SetActive(true);
+            PlayerPrefs.SetInt("Obj5Status", 1);
             yield return new WaitForSeconds(5f);
             OBJ4LocationTrigger.SetActive(false);
             reached = true;
