@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pistol Bullet
   m_EditorClassIdentifier: 
   itemName: Rifle Bullet
-  damage: 24
+  damage: 40
   rangeModifier: 0.75
   impactImpulse: 35
   decalMapping: {fileID: 11400000, guid: a8b0c81d03f15d943b14a2fa95d435d5, type: 2}
