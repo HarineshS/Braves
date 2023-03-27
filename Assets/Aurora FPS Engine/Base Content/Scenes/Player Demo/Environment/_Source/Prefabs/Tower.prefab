@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0.65657765, y: 0.2624992, z: -0.26249918, w: 0.6565776}
   m_LocalPosition: {x: -0.51872516, y: -2.3037977, z: 2.6347673}
   m_LocalScale: {x: 2.0374508, y: 0.13495135, z: 1.3688029}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 400004}
   m_RootOrder: 1
@@ -38,7 +39,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 77b2008fc6197f44a82570617d274355, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -71,6 +72,7 @@ Transform:
   m_LocalRotation: {x: -0.64802647, y: -0.28295183, z: -0.64802647, w: -0.28295183}
   m_LocalPosition: {x: -2.12256, y: -0.5598467, z: 4.223945}
   m_LocalScale: {x: 2.7408705, y: 0.13495168, z: 1.3688024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 400004}
   m_RootOrder: 0
@@ -82,7 +84,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100002}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 77b2008fc6197f44a82570617d274355, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -117,6 +119,7 @@ Transform:
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
   m_LocalPosition: {x: 3.7706785, y: -0.0000002298489, z: 1.9671905}
   m_LocalScale: {x: 1.2902501, y: 1.2902501, z: 1.2902501}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 400002}
   - {fileID: 400000}
@@ -142,6 +145,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
@@ -183,7 +187,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100004}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 77b2008fc6197f44a82570617d274355, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4

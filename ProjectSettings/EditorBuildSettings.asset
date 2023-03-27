@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SnowForestScene.unity
-    guid: 2033e2b109e339d4fb1340784b5123cc
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9645659d97d652746a24eaf98ff3a547
+  - enabled: 1
+    path: Assets/ANGRY MESH/Nature Pack - Winter Environment/Scenes/Demo_Scene_02.unity
+    guid: b24f7483b75c7ca49ad6db0179ef0dce
   m_configObjects:
     Apex Settings Config Asset Key: {fileID: 11400000, guid: 8f5f4a1bfc4557347a4db3d7da68c066,
       type: 2}

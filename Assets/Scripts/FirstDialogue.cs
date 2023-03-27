@@ -63,10 +63,10 @@ public class FirstDialogue : MonoBehaviour
 
     public IEnumerator cutscene()
     {
-        Player.SetActive(false);
+        //Player.SetActive(false);
         CutSceneCamera.SetActive(true);
         yield return new WaitForSeconds(99f);
-        Player.SetActive(true);
+        //Player.SetActive(true);
         CutSceneCamera.SetActive(false);
     }
 }
