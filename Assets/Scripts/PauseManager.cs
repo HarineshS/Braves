@@ -26,11 +26,13 @@ public class PauseManager : MonoBehaviour
             if (pausePanel.activeSelf)
             {
                 ResumeGame();
+                Cursor.visible = false;
             }
             // Otherwise, open the pause panel
             else
             {
                 PauseGame();
+                Cursor.visible = true;
             }
         }
     }

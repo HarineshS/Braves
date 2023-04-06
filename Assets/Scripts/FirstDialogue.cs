@@ -39,6 +39,13 @@ public class FirstDialogue : MonoBehaviour
 
         }
 
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            CutSceneCamera.SetActive(false);
+            StopAllCoroutines();
+            Destroy(CutSceneCamera);
+        }
+
 
     }
 

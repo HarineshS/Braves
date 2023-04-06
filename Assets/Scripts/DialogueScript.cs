@@ -134,6 +134,10 @@ public class DialogueScript : MonoBehaviour
 
 
         }
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            Audio.Stop();
+        }
 
     }
 }

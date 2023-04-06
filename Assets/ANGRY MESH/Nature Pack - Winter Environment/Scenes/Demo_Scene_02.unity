@@ -14,31 +14,31 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
-  m_FogColor: {r: 0.75628334, g: 0.8548902, b: 0.8867924, a: 1}
-  m_FogMode: 1
-  m_FogDensity: 0.005
+  m_Fog: 0
+  m_FogColor: {r: 0.1792453, g: 0.1782307, b: 0.1782307, a: 0.078431375}
+  m_FogMode: 3
+  m_FogDensity: 0.01
   m_LinearFogStart: 3
-  m_LinearFogEnd: 726.83
-  m_AmbientSkyColor: {r: 0.39073315, g: 0.5246794, b: 0.53676474, a: 0.96}
+  m_LinearFogEnd: 944
+  m_AmbientSkyColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 0.96}
   m_AmbientEquatorColor: {r: 0.59461504, g: 0.83830684, b: 0.8602941, a: 0.96}
   m_AmbientGroundColor: {r: 0.59461504, g: 0.83830684, b: 0.8602941, a: 0.96}
   m_AmbientIntensity: 0.7
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 646c52279a15f6b4688a884105e0ec2c, type: 2}
-  m_HaloStrength: 0.5
-  m_FlareStrength: 1
-  m_FlareFadeSpeed: 3
+  m_SkyboxMaterial: {fileID: 2100000, guid: 2869c66e822baa941bb52b0e6ec3dfdf, type: 2}
+  m_HaloStrength: 0.095
+  m_FlareStrength: 0
+  m_FlareFadeSpeed: 0
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.2
+  m_ReflectionIntensity: 0.108
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.04096177, g: 0.05259837, b: 0.06154562, a: 0.2}
+  m_IndirectSpecularColor: {r: 0.0045744665, g: 0.0056271404, b: 0.009184922, a: 0.108}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5680,7 +5680,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.8444218, b: 0.5661765, a: 1}
+  m_Color: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -40776,7 +40776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 1
+  outlineMode: 0
   outlineColor: {r: 1, g: 0, b: 0, a: 1}
   outlineWidth: 2
   precomputeOutline: 0
