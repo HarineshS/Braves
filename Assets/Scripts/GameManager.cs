@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene(1);
+        StartCoroutine(Playgame());
 
     }
 
@@ -33,5 +33,18 @@ public class GameManager : MonoBehaviour
     public void restart()
     {
         SceneManager.LoadScene("GetCurrentScene.BuildIndex");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+
+    }
+
+    public IEnumerator Playgame()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(1);
+        yield break;
     }
 }
