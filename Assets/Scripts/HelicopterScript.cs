@@ -211,21 +211,7 @@ public class HelicopterScript : MonoBehaviour
 
     public IEnumerator DisableChildObjectsCoroutine()
     {
-        // Get the parent object
-        // GameObject parentObject = GameObject.Find("Paper & Envelope");
 
-        // // Loop through all of its child objects
-        // for (int i = 0; i < parentObject.transform.childCount; i++)
-        // {
-        //     // Get the child object at index i
-        //     GameObject childObject = parentObject.transform.GetChild(i).gameObject;
-
-        //     // Disable the child object
-        //     childObject.SetActive(false);
-
-        //     // Wait for 1 second before disabling the next child object
-        //     yield return new WaitForSeconds(0.3f);
-        // }
 
 
 

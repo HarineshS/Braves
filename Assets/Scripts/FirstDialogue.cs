@@ -39,12 +39,7 @@ public class FirstDialogue : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.F1))
-        {
-            CutSceneCamera.SetActive(false);
-            StopAllCoroutines();
-            Destroy(CutSceneCamera);
-        }
+
 
 
     }
@@ -71,9 +66,19 @@ public class FirstDialogue : MonoBehaviour
     public IEnumerator cutscene()
     {
         //Player.SetActive(false);
-        CutSceneCamera.SetActive(true);
-        yield return new WaitForSeconds(99f);
-        //Player.SetActive(true);
-        CutSceneCamera.SetActive(false);
+        if (CutSceneCamera.activeInHierarchy == true)
+        {
+            yield break;
+
+        }
+        else
+        {
+            CutSceneCamera.SetActive(true);
+            yield return new WaitForSeconds(99f);
+            //Player.SetActive(true);
+            CutSceneCamera.SetActive(false);
+
+        }
+
     }
 }
